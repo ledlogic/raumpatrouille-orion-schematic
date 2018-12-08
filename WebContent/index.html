@@ -7,7 +7,7 @@
 	content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 <title>Raumpatrouille Orion Schematic</title>
 <link rel="stylesheet" href="css/material.min.css">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/ros-styles.css">
 </head>
 <body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -19,8 +19,9 @@
 		<div class="ros-content">
 
 			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--12-col">
+				<div class="ros-orion-container mdl-cell mdl-cell--12-col">
 					<img class="ros-orion" src="img/orion-risszeichnung_buchholz.jpg" />
+					<canvas class="ros-orion-canvas" height="100" width="100"></canvas>
 				</div>
 			</div>
 			
@@ -151,5 +152,9 @@
 		</div>
 	</div>
 	<script src="js/material.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+	<script src="js/ros-zoom.js"></script>
 </body>
 </html>

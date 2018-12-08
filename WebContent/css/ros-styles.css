@@ -19,6 +19,14 @@ h1, h2, h3, h4 {
 }
 .ros-translation {
 }
+.ros-orion-container {
+	position: relative;
+}
 .ros-orion {
 	width: 100%;
+}
+.ros-orion-canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
 }
