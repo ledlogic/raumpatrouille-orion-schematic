@@ -1,0 +1,24 @@
+h1, h2, h3, h4 {
+	font-family: "Nesobrite", Helvetica, Arial, sans-serif;
+}
+.mdl-list__item.mdl-list__item__head {
+	font-family: "Nesobrite", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.mdl-list__item {
+	font-size: 12px;
+}
+.ros-header {
+	background-color: #424242;
+	font-family: "Nesobrite", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	padding: 0 16px 0 16px;	
+}
+.ros-content {
+}
+.ros-translation {
+}
+.ros-orion {
+	width: 100%;
+}
