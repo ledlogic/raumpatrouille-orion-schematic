@@ -53,7 +53,9 @@ var ros = {
 		ros.ctx.beginPath();
 	    ros.ctx.strokeStyle = "#0000ff";
 	    ros.ctx.lineWidth = 0.5;
-	    ros.ctx.ellipse(fpt.x*ros.$canvas.width(), fpt.y*ros.$canvas.height(), 4, 4, 0, 0, 2 * Math.PI);
+	    var ctrw = ros.$ctr.width();
+	    var r = ctrw * 5 / 1024;
+	    ros.ctx.ellipse(fpt.x*ros.$canvas.width(), fpt.y*ros.$canvas.height(), r, r, 0, 0, 2 * Math.PI);
 	    ros.ctx.stroke();
 	}
 };
